@@ -1,3 +1,7 @@
-import{aaa} from './telegram/index.ts'
+import { Parser } from './parser/index'
 
-aaa()
+const main = async () => {
+    Parser.handleStartParsing()    
+}
+
+main()

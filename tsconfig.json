@@ -4,13 +4,14 @@
         "target": "ES5",
         "esModuleInterop": true,
         "strict": true,
+        "sourceMap": true,
         "moduleResolution": "node",
         "allowJs": true,
         "module": "ESNext",
     },
     "ts-node": {
         "compilerOptions": {
-          "module": "CommonJS"
+            "module": "CommonJS"
         }
-      }
+    }
 }
