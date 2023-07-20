@@ -1,1 +1,3 @@
-console.log('hello world')
+import{aaa} from './telegram/index.ts'
+
+aaa()
