@@ -7,7 +7,7 @@ const config: webpack.Configuration = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
-    clean: true
+    clean: true 
   },
 };
 
